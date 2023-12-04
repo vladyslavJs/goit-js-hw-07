@@ -95,3 +95,17 @@ button {
 
 /* task-2 */
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  background: #FFF;
+}
+
+.gallery-image {
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
