@@ -199,8 +199,9 @@ form>label {
  }
 
 /* task 5 */
-/* .widget {
+.widget {
   text-align: center;
+  padding: 100px 0;
 }
 
 .widget p {
@@ -208,7 +209,8 @@ form>label {
   margin-bottom: 16px;
   color: #2e2f42;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.04em;
 }
 
@@ -217,16 +219,25 @@ form>label {
 }
 
 .widget button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
   padding: 8px 16px;
   border-radius: 8px;
   background: #4e75ff;
   color: #fff;
-  font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
-} */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.change-color:hover,
+.change-color:focus {
+  background-color: #404bbf;
+}
 
 /* task 6  */
 #controls {
