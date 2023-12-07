@@ -44,7 +44,6 @@ button {
 }
 
 /* task-1 */
-
 #categories {
   display: flex;
   flex-direction: column;
@@ -94,7 +93,6 @@ button {
 }
 
 /* task-2 */
-
 .gallery {
   display: flex;
   justify-content: center;
@@ -111,7 +109,6 @@ button {
 }
 
 /* task 3 */
-
 #name-input {
   display: block;
   border-radius: 4px;
@@ -145,7 +142,6 @@ h1 {
 }
 
 /* task 4 */
-
 .login-form {
   display: flex;
   flex-direction: column;
@@ -178,7 +174,7 @@ form>label {
   border-radius: 4px;
   }
 
-.login-form button {
+.login-form button{
   color: #FFF;
   max-width: 86px;
   height: 40px;
@@ -230,3 +226,76 @@ form>label {
   letter-spacing: 0.04em;
   border: none;
 } */
+
+
+/* task 6  */
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  max-width: 486px;
+  padding: 32px;
+  border-radius: 8px;
+  margin: 0 auto 16px auto;
+  background-color: #f6f6fe;
+}
+
+#controls>input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  margin: 0;
+  text-align: center;
+}
+
+#controls>button {
+  width: 120px;
+  color: #FFF;
+  /* height: 40px; */
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4E75FF;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFF;
+}
+
+#controls>button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls>button[data-create]:hover,
+#controls>button[data-create]:focus {
+  background-color: #404bbf;
+}
+
+#controls>button[data-destroy]:hover,
+#controls>button[data-destroy]:focus {
+  background-color: #f50404;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  max-width: 486px;
+  padding: 32px;
+  border-radius: 8px;
+  margin: 0 auto;
+  background-color: #f6f6fe;
+}
+
