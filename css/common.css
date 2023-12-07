@@ -110,18 +110,16 @@ button {
 
 /* task 3 */
 #name-input {
-  display: block;
   border-radius: 4px;
   border: 1px solid #808080;
-  margin: 24px 24px 16px;
-
   width: 360px;
   height: 40px;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  
+  margin: 24px 24px 16px 24px;
   transition: border-color 250ms ease-out; 
 }
 
@@ -134,11 +132,11 @@ h1 {
 
 .forms {
   border-radius: 8px;
-  background: #FFF;
-  max-width: 409px;
-  max-height: 136px;
-  padding-top: 5px;
-  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#f2f0f0;
+  max-width: 408px;
+  height: 136px;
 }
 
 /* task 4 */
